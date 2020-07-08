@@ -15,8 +15,7 @@ body {
     border-bottom: 1px solid #3D735F; */
     margin-bottom: 5px;
     font-family: 'Source Sans Pro', sans-serif;
-    text-shadow: 1px 1px #3D735F, 2px 2px #3D735F, 3px 3px #3D735F;
-    color: a;
+    text-shadow: 1px 1px #3D735F, 3px 3px #3D735F;
 }
 .header-bottom {
     text-align: center;
