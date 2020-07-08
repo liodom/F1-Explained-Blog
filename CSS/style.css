@@ -10,14 +10,20 @@ body {
     text-align: center;
     font-size: 4rem;
     padding: 30px 0;
-    background-color: pink;
-    border-bottom: 1px solid grey;
+    /* background-color: pink; */
+    /* border-top: 1px solid #3D735F;
+    border-bottom: 1px solid #3D735F; */
     margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 1px 1px #3D735F, 2px 2px #3D735F, 3px 3px #3D735F;
+    color: a;
 }
 .header-bottom {
     text-align: center;
-    border-top: 1px solid grey;
-    background-color: aqua;
+    /* border-top: 1px solid red; */
+    border-top: 1px solid #3D735F;
+    border-bottom: 1px solid #3D735F;
+    /* background-color: aqua; */
     margin-bottom: 10px;
 
     list-style-type: none;
@@ -30,32 +36,75 @@ body {
 
 nav li {
     display: inline-block;
-    padding: 5px 10px;
-    margin: 5px 10px;
-    background-color: violet;
+    padding: 0px 10px;
+    margin: 0px 15px;
+    /* background-color: violet; */
 }
 
 nav a {
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+nav a:hover {
+    color: #3D735F;
+    text-shadow: 1px 1px#79D99B;
 }
 
 .container {
-    width: 90vw;
-    border: 2px solid red;
+    width: 60vw;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 
 img {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    margin-right: 20px;
 }
 
 .float-left {
     float: left;
 }
 
+.posted {
+    margin-bottom: 30px;
+}
+
+.name {
+    color: #3D735F;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.date {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+article {
+   /* border: 1px solid  #3D735F; */
+   padding: 10px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-family: 'PT Sans', sans-serif;
+}
+
+article p {
+    line-height: 1.4rem;
+    letter-spacing: 0.1px;
+}
+
 article:after {
     content:"";
     display: table;
     clear: both;
+}
 
+.continue {
+    font-size: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #3D735F;
+}
+
+a {
+    text-decoration: none;
 }
